@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Haotian Hang"
   avatar           : "profile.png"
-  bio              : "A PhD student working on fluid dynamics"
+  bio              : "PhD student working on fluid dynamics"
   location         : "Location"
   employer         : 
   pubmed           : 
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : haotianh@usc.edu
+  googlescholar    : 
+  email            : "haotianh@usc.edu"
   researchgate     :  "https://www.researchgate.net/profile/Haotian-Hang"
   uri              :
   bitbucket        :
