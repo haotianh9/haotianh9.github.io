@@ -21,7 +21,7 @@ Current research focus
 ======
 Now, I'm working on two projects. 
 
-In one project, we are looking at the role of flexion in the performance of fish's swimming. This work is inspired by a previous paper which found the flexion ratio and flexion angle converges in a limited region of parameter space. In order to find our whether this convergence desgin is due to hydrodynamic benefits and whether the motion is actively controlled, or based on passive interaction, we used a two link fish and use Vortex Sheet method to solve the fluid structure interaction. 
+In one project, we are looking at the role of flexion in the performance of fish's swimming. This work is inspired by a previous paper which found the flexion ratio and flexion angle converges in a limited region of parameter space. In order to find our whether this convergence desgin is due to hydrodynamic benefits and whether the motion is actively controlled, or based on passive interaction, we used a two link fish and use Vortex Sheet method(VSM) to solve the fluid structure interaction. We found that the phase between the motion of anterior and posterior is another important parameter which influence the swimming performance. 
 
 In the other project, we are looking at the sensory control strategy of fish. 
 
