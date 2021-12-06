@@ -14,7 +14,8 @@ I am a PhD student at [Prof.Kanso's Bio-inspired Motion Lab](https://sites.usc.e
 
 Research interest
 ======
-<!-- I'm mainly focusing on dynamics problems inspired by biology, especially fluid dynamics problems inspired by swimming and flying animals. Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years. Natural selection has endued them fascinating ability in efficiency and maneuverability, which is not achievable by any man-made vehicles. Moreover, the collective behavior and motion planning of animals with limited sensory signals are even more interesting.  -->
+I'm mainly focusing on dynamics problems inspired by biology, especially fluid dynamics problems inspired by swimming and flying animals.
+<!--  Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years. Natural selection has endued them fascinating ability in efficiency and maneuverability, which is not achievable by any man-made vehicles. Moreover, the collective behavior and motion planning of animals with limited sensory signals are even more interesting.  -->
 <!-- such as schooling of fish and flocking of birds -->
 
 Current research focus
