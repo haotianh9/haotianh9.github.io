@@ -29,12 +29,22 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Language
+  * Experienced: Python, Fortran, Matlab, Latex
+  * Beginner: C++/C
+  * Know a little bit: java, Julia, assembly language
+* 3D modeling
+  * Experienced: UG NX, AutoCAD
+  * Beginner: Solidworks
+* Simulation
+  * Beginner: Fluent, XFlow, Abaqus, Gazebo
+* Micro Controller Hardware
+  * Experienced: Arduino
+  * Beginner: RasPiberry, MCS-51
+* Manufacture
+  * Beginner: Laser cut, 3D printing
+  * Know a little bit: lathe, milling machine, CNC 
+
 
 Publications
 ======
