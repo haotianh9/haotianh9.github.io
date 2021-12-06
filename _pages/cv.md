@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Aeronautics and Astronautics Engineering, Shanghai Jiao Tong University, 2019
+* Ph.D Mechanical Engineering, University of Southern California, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2020 - : Research Assistant
+  * Bio-Inspired Motion Lab at USC
+  <!-- * Duties included: Tagging issues -->
+  * Supervisor: Professor Eva Kanso
+* Sep 2019 - Dec 2019 : Intern Algorithmic Engineer
+  * Shanghai Hongpu Information Technology Co., Ltd. 
+* 2016 - 2019: Research Assistant
+  * J.C.Wu Center for Aerodynamics at SJTU
+  <!-- * Duties included: Merging pull requests -->
+  * Supervisor: Professor Hong Liu
   
 Skills
 ======
