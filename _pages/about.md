@@ -12,17 +12,18 @@ I am a PhD student at [Prof.Kanso's Bio-inspired Motion Lab](https://sites.usc.e
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
 
-My research interest
+Research interest
 ======
 <!-- I'm mainly focusing on dynamics problems inspired by biology, especially fluid dynamics problems inspired by swimming and flying animals. Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years. Natural selection has endued them fascinating ability in efficiency and maneuverability, which is not achievable by any man-made vehicles. Moreover, the collective behavior and motion planning of animals with limited sensory signals are even more interesting.  -->
 <!-- such as schooling of fish and flocking of birds -->
 
-My current research focus
+Current research focus
 ======
 Now, I'm working on two projects. 
 
-In one project, we are looking at the role of flexion 
+In one project, we are looking at the role of flexion in the performance of fish's swimming. This work is inspired by a previous paper which found the flexion ratio and flexion angle converges in a limited region of parameter space. In order to find our whether this convergence desgin is due to hydrodynamic benefits and whether the motion is actively controlled, or based on passive interaction, we used a two link fish and use Vortex Sheet method to solve the fluid structure interaction. 
 
+In the other project, we are looking at the sensory control strategy of fish. 
 
 Getting started
 ======
