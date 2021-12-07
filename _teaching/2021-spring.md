@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course Teaching assistant"
 # permalink: /teaching/2015-spring-teaching-1
 venue: "University of Southern California, Department"
-date: 2021
+date: 2021-01-07
 
 # location: "City, Country"
 ---
