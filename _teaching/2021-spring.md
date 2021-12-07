@@ -3,7 +3,7 @@ title: "AME-526, Introduction to mathematical methods in engineering II"
 collection: teaching
 type: "Graduate course Teaching assistant"
 # permalink: /teaching/2015-spring-teaching-1
-venue: "University of Southern California, Department"
+venue: "University of Southern California"
 date: 2021-01-07
 
 # location: "City, Country"
