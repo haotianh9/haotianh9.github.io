@@ -1,0 +1,217 @@
+\documentclass[10pt,letterpaper]{res}
+\usepackage{color,soul}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{array,longtable}
+\usepackage{datetime}
+\usepackage[left=.5in,right=1.25in,top=.5in,bottom=.5in]{geometry}
+
+%xelatex parameter
+% \usepackage{xltxtra,fontspec,xunicode}
+% \defaultfontfeatures{Scale=MatchLowercase}
+% %\setromanfont{Adobe Garamond Pro}
+% \setromanfont{Garamond}
+%xelatex parameter
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+\newcommand{\tab}{\hspace*{2em}}
+\newcommand{\vsrk}{\vspace*{-12pt}}
+\newcommand{\sepline}{\smallskip\moveleft\hoffset\vbox{\hrule width 7.5in height .5pt}
+	\vspace*{-5pt}}
+
+\newdateformat{monthyear}{%
+	\monthname[\THEMONTH], \THEYEAR}
+
+\usepackage{hyperref}
+%\usepackage[compact]{titlesec}
+%\titlespacing{\section}{0pt}{*0}{*0}
+%\titlespacing{\subsection}{0pt}{*0}{*0}
+%\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+\catcode`@=11
+
+\def\nvphantom{\v@true\h@false\nph@nt}
+\def\nhphantom{\v@false\h@true\nph@nt}
+\def\nphantom{\v@true\h@true\nph@nt}
+\def\nph@nt{\ifmmode\def\next{\mathpalette\nmathph@nt}%
+  \else\let\next\nmakeph@nt\fi\next}
+\def\nmakeph@nt#1{\setbox\z@\hbox{#1}\nfinph@nt}
+\def\nmathph@nt#1#2{\setbox\z@\hbox{$\m@th#1{#2}$}\nfinph@nt}
+\def\nfinph@nt{\setbox\tw@\null
+  \ifv@ \ht\tw@\ht\z@ \dp\tw@\dp\z@\fi
+  \ifh@ \wd\tw@-\wd\z@\fi \box\tw@}
+
+\begin{document}
+	\moveleft.5\hoffset\centerline{\huge\bf HAOTIAN HANG}
+	\smallskip
+	\moveleft.5\hoffset\centerline{\monthyear\today}
+	\begin{resume}%
+		\vsrk
+		\section{PERSONAL INFO}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.5\linewidth}
+				p{\dimexpr0.5\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			{\bf Birth Year:} 1997 & {\bf Address:} 1247 W 30 St, Los Angeles, CA 90007\\
+			{\bf Citizenship:} People's Republic of China & {\bf Mobile:} +1 (213) 462 - 5919\\
+			{\bf E-mail:} haotianh@usc.edu 
+			% & {\bf Webpage:}   \url{https://haotianh9.github.io/haotian9.github.io/} (to be done in future) 
+			\\
+			{\bf Social media:}
+			\href{https://github.com/haotianh9}{\textit{Github}}
+			\href{https://www.linkedin.com/in/haotian-hang-0a23471a3/}{\textit{LinkedIn}}
+			\href{https://www.researchgate.net/profile/Haotian-Hang/}{\textit{ResearchGate}}
+
+		\end{longtable}
+		\vsrk\vsrk
+		\section{EDUCATION}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			
+			\hspace{-4ex}{2020 - } & {\bf University of Southern California}, Los Angeles, CA\\
+			& {~Ph.D. Student, Mechanical Engineering} \\
+			
+			\hspace{-4ex}{2015 - 2019} & {\bf Shanghai Jiao Tong University}, Shanghai, China\\
+			& {~B.S. Aeronautics and Astronautics Engineering},  June 2019 (Average Score: 89.22/100)\\[-1ex]
+		\end{longtable}
+		\vsrk\vsrk
+		\section{EMPLOYMENT}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			\hspace{-4ex}{2020 - } & {\bf Research Assistant}, Bio-Inspired Motion Lab at USC, PI: \textit{Prof.~Eva Kanso}\\
+			\hspace{-4ex}{2019} & {\bf Intern Algorithmic Engineer}, Shanghai Hongpu Information Technology Co., Ltd. \\
+			\hspace{-4ex}{2016 - 2019} & {\bf Research Assistant}, J.C.Wu Center for Aerodynamics, PI: \textit{Prof.~Hong Liu}\\
+		\end{longtable}
+		\vsrk\vsrk
+		\section{PUBLICATIONS}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			\hspace{-4ex}{2022} 
+			& \nhphantom{3. }3. Hang, H., Heydari, S., Costello, J., \& Kanso, E. (2022). \href{https://doi.org/doi:10.1017/jfm.2021.984}{\textit{Active tail flexion in concert with passive hydrodynamic forces improves swimming speed and efficiency}}. Journal of Fluid Mechanics, 932, A35.  \\
+			\hspace{-4ex}{2021} 
+			& \nhphantom{2. }2. Xiang, Y., Hang, H., Qin, S., and Liu, H. (2021). \href{https://doi.org/10.1007/s10409-021-01134-7}{\textit{Scaling analysis of the circulation growth of leading-edge vortex in flapping flight}}. Acta Mech. Sin.  \\
+			\hspace{-4ex}{2020} & \nhphantom{1. }1. Hang, H., Yu, B., Xiang, Y., Zhang, B., and Liu, H. (2020).  \href{https://doi.org/10.1007/s12650-019-00605-1}{\textit{An objective-adaptive refinement criterion based on modified ridge extraction method for finite-time Lyapunov exponent (FTLE) calculation}}. Journal of Visualization, 23(1), 81-95. \\
+		\end{longtable}
+		\vsrk\vsrk
+		\section{RESEARCH INTERESTS/EXPERIENCE}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			
+			\hspace{-4ex}{2020 - } & {\bf Flowtaxis via RL}, supervised by \textit{Prof.~Eva Kanso}, \textit{Dr.~Josh Merel} \\
+			& \hspace{2ex} joint with \textit{Sina Heydari}, \textit{Yusheng Jiao}, \textit{Feng Ling}, \textit{Basile Radisson}\\
+			& Using reinforcement learning to follow vortical wakes based on local flow sensory\\
+
+		\end{longtable}
+		\vspace*{-4.5ex}
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			
+			\hspace{-4ex}{2020 - } & {\bf Flexion in fish swimming}, supervised by \textit{Prof.~Eva Kanso}, \textit{Prof.~John H. Costello}\\
+			& \hspace{2ex} joint with \textit{ Sina Heydari}\\
+			& Study the role of active and passive flexion on swimming speed and efficiency of a self-propelling pitching plate using vortex sheet method \\
+			& Parametric study on the effect of flexion phase, flexion angle and flexion ratio on swimming performance\\
+
+						
+		\end{longtable}
+		\vspace*{-4.5ex}
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			\hspace{-4ex}{2016 - 2019} & {\bf Mechanisms of high generation in insects flight}, supervised by \textit{Prof.~Hong Liu} and \textit{Dr.~Yang Xiang}\\
+			& \hspace{2ex} joint with \textit{Dr.~Suyang Qing}\\
+			& Experimental study on the role of the phase difference on leading edge vortex formation using a scaled robotic flapping wing model in glycerin\\
+			& Find a scaling law between passive rotation and active translation in flapping wing model \\
+
+		\end{longtable}
+		\vspace*{-4.5ex}
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			
+			\hspace{-4ex}{2016 - 2019} & {\bf AMR for FTLE calculation}, supervised by \textit{Prof.~Hong Liu}, \textit{Prof.~Bin Zhang}, \textit{Bin Yu} and \textit{Dr.~Yang Xiang}\\
+			& Construct a physics-based adaptive refinement method for finite-time Lyapunov exponent calculation\\
+			
+		\end{longtable}
+		
+		\vsrk\vsrk
+		\section{TALKS/PRESENTATIONS}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			\hspace{-4ex}{2021} & {\bf APS Division of Fluid Dynamics Meeting}, Active tail flexion in concert with passive hydrodynamic forces improves swimming speed and efficiency\\
+			\hspace{-4ex}{2020} & {\bf APS Division of Fluid Dynamics Meeting}, Flowtaxis in the wakes of oscillating airfoils\\
+			\hspace{-4ex}{2018} & {\bf APS Division of Fluid Dynamics Meeting}, Passive rotation of a flapping wing with an inhomogeneous mass distribution \\
+
+		\end{longtable}
+%		\vsrk\vsrk
+
+
+		\section{TEACHING EXPERIENCE}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			& \textbf{at University of Southern California} \\
+			
+
+			\hspace{-4ex}{2021 Spring} & {\bf Teaching Assistant}, AME-526, Introduction to mathematical methods in engineering II, \emph{Prof.~Niema Pahlevan}\\
+	
+			\hspace{-4ex}{2020 Fall} & {\bf Teaching Assistant}, AME-404, Computational Solutions to Engineering Problems, \emph{Prof.~Takahiro Sakai}\\
+			
+		\end{longtable}
+		\vsrk\vsrk
+		\section{GRADUATE COURSEWORK}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+			& \textbf{at University of Southern California} \\
+			
+
+			\hspace{-4ex}{2021} & PHYS-516, Methods of Computational Physics, A , \emph{Prof.~Aiichiro Nakano}\\
+			& EE-556, Stochastic Systems and Reinforcement Learning, A , \emph{Prof.~Rahul Jain}\\
+			& CSCI-570, Analysis of Algorithms, B+ , \emph{Prof.~Victor Adamchik}\\
+			
+			\hspace{-4ex}{2020} & AME-525, Engineering Analysis, A- ,\emph{Prof.~Eva Kanso}\\
+			& AME-526, Introduction to Mathematical Methods in Engineering II, A , \emph{Prof.~Niema Pahlevan}\\
+			& AME-511, Compressible Gas Dynamics, A , \emph{Prof.~Iván Bermejo-Moreno}\\
+			& PHYS-760, Selected Topics in Computational Physics, P , \emph{Prof.~Satish Kumar Thittamaranahalli}\\
+			& AME-451, Linear Control Systems I, A , \emph{Prof.~Henryk Flashner}\\
+			& AME-541, Linear Control Systems II, A- , \emph{Prof.~Néstor O. Pérez-Arancibia}\\
+			& AME-535A, Introduction to Computational Fluid Mechanics, A , \emph{Prof.~Alejandra Uranga}\\
+			& AME-530A, Dynamics of Incompressible Fluids, B+ , \emph{Prof.~Carlos Pantano}\\
+
+		\end{longtable}
+		\vsrk\vsrk
+
+		\section{HONOR/AWARDS}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+				
+			\hspace{-4ex}{2017-2018} & Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment of SJTU \\
+			\hspace{-4ex}{2016} & Honeywell Star Project  \\
+			& {\bf Second Place }, Parts of the National College Students Physics Competition \\
+			& {\bf Third Place }, Chinese College Students' Mathematics Competition \\
+			\hspace{-4ex}{2014} & {\bf First Place}, Chinese Chemistry Olympiad \\
+			 & {\bf First Place}, Shanghai Adolescents Science and Technology Innovation Contest \\
+
+		\end{longtable}
+		\vsrk\vsrk
+		\section{ONLINE COURSEWORK}
+		\sepline
+		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
+				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+				& \textbf{at Coursera} \\
+			\hspace{-4ex}{2021} & Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course), Hebrew University of Jerusalem, \emph{Prof.~Shimon Schocken} and \emph{Prof.~Noam Nisan} \\
+			\hspace{-4ex}{2019} & {\bf Specialization}, DeepLearning.AI TensorFlow Developer , DeepLearning.AI, \emph{Prof.~Andrew Ng} (containing 4 courses) \\
+			& {\bf Specialization}, Deep Learning, DeepLearning.AI, \emph{Prof.~Andrew Ng}, \emph{Prof.~Kian Katanforoosh}, and \emph{Prof.~Kian Katanforoosh} (containing 5 courses) \\
+			& Machine Learning, Stanford University, \emph{Prof.~Andrew Ng} \\
+			\hspace{-4ex}{2014} & General Chemistry, Peking University, \emph{Prof.~Jiang Bian} \\
+		
+
+		\end{longtable}
+		\vsrk\vsrk
+	\end{resume} 
+\end{document}
