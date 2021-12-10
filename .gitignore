@@ -1,7 +1,6 @@
 _site/
 
 .DS_Store
-.DS_Store
 files/CV/HHT_CV.synctex.gz
 *.aux
 files/CV/HHT_CV.fdb_latexmk
