@@ -40,7 +40,7 @@ Skills
   * Beginner: Fluent, XFlow, Abaqus, Gazebo
 * Micro Controller Hardware
   * Experienced: Arduino
-  * Beginner: RasPiberry, MCS-51,Pixhawk
+  * Beginner: RasPiberry, MCS-51, Pixhawk
 * Manufacture
   * Beginner: Laser cut, 3D printing
   * Know a little bit: lathe, milling machine, CNC 
