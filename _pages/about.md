@@ -19,8 +19,9 @@ I'm mainly focusing on dynamics problems inspired by biological behavior, especi
 Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years. Natural selection has endued them fascinating ability in propulsion efficiency, maneuverability and utilizing ambient flow structures, which is not achievable by any man-made vehicles. 
 Understanding these bio-behaviors can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors. 
 
-[![Video]](/files/flapping_wing.gif)
 
+[flapping wing experiment](/files/flapping_wing.gif)
+[flexion swimming](/files/flexion_swimming.gif)
 
 Current research focus
 ======
