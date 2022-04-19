@@ -84,7 +84,7 @@ author:
   location: "Location"
   employer:
   pubmed:
-  googlescholar:
+  googlescholar: "https://scholar.google.com/citations?hl=en&user=3hzPBNoAAAAJ&view_op=list_works&authuser=1&sortby=pubdate"
   email: "haotianh@usc.edu"
   researchgate: "https://www.researchgate.net/profile/Haotian-Hang"
   uri:
