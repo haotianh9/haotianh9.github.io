@@ -11,16 +11,17 @@ redirect_from:
 I am a PhD student at [Prof.Kanso's Bio-inspired Motion Lab](https://sites.usc.edu/kansolab/) at Univeristy of Southern California. Previously, I graduated from [Shanghai Jiao Tong Univeristy](https://www.sjtu.edu.cn) in 2019, where I worked as an undergraduate research assistant at J.C. Wu Center for Aerodynamics for four years. 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-My CV van be found at [CV](https://github.com/haotianh9/haotianh9.github.io/blob/master/files/CV/HHT_CV.pdf). 
+My CV can be found at [CV](https://github.com/haotianh9/haotianh9.github.io/blob/master/files/CV/HHT_CV.pdf). 
 
 Research interest
 ======
 I'm mainly focusing on dynamics problems inspired by biological behavior, especially unsteady fluid dynamics problems inspired by swimming and flying animals. 
 Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years. Natural selection has endued them fascinating ability in propulsion efficiency, maneuverability and utilizing ambient flow structures, which is not achievable by any man-made vehicles. 
-Understanding these bio-behaviors can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors. 
+I'm interested in combining physics based methods and data driven methods to understand these bio-behaviors, which can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors. 
 
 
 [flapping wing experiment](/files/flapping_wing.gif)
+
 [flexion swimming](/files/flexion_swimming.gif)
 
 Current research focus
@@ -28,7 +29,7 @@ Current research focus
 Now, I'm working on two projects. 
 
 
-In one project, we are looking at the sensory control strategy of fish. We are focusing on a scenario similar to predation of fish. A swimmer is moving in the wake left by an oscillating airfoil. It's goal is to locate the airfoil by measuring local flow property and navigating in the wake. We are interested in these questions. Firstly, what flow property is the most effective sensory cue, whether it is velocity, pressure or vorticity? Secondly, which location is optimal for placing the sensors along the body of the swimmer? Thirdly, what is the optimal sensory-control strategy in this task?  
+In one project, we are looking at the sensory control strategy of fish. We are focusing on a scenario similar to predation of fish. A swimmer is moving in the wake left by an oscillating airfoil. It's goal is to locate the airfoil by measuring local flow property and navigating in the wake. We are interested in the following three questions. First, what flow property is the most effective sensory cue, whether it is velocity, pressure or vorticity? Second, which location is optimal for placing the sensors along the body of the swimmer? Third, what is the optimal sensory-control strategy in this task?  
 
 
 In the other project, we are looking at the role of flexion in the performance of fish's swimming. 
