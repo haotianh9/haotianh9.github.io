@@ -20,9 +20,9 @@ Thousands of species of animals have been constantly interacting with air and wa
 I'm interested in combining physics based methods and data driven methods to understand these bio-behaviors, which can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors. 
 
 
-[flapping wing experiment](/files/flapping_wing.gif)
+![flapping wing experiment](/files/flapping_wing.gif)
 
-[flexion swimming](/files/flexion_swimming.gif)
+![flexion swimming](/files/flexion_swimming.gif)
 
 Current research focus
 ======
