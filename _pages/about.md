@@ -42,7 +42,7 @@ I've also began training toward a private pilot at Santa Monica Flyers.
 
 ![flight](/files/flight.gif)
 
-![flight](/files/flight.jpg)
+<!-- ![flight](/files/flight.jpg) -->
 <!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
