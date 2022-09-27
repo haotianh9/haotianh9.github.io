@@ -72,7 +72,7 @@ Many people use a git client to create files on their local computer and then pu
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png) -->
 
-<!-- Contact infomation
+<!-- Contact infomation -->
 ------
 <!-- More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
-<!-- Email address: haotianh@usc.edu; hanghaotian@gmail.com --> -->
+<!-- Email address: haotianh@usc.edu; hanghaotian@gmail.com -->
