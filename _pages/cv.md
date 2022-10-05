@@ -30,7 +30,7 @@ Work experience
 Skills
 ======
 * Programming Language
-  * Experienced: Python, C++/C, Fortran, Matlab
+  * Experienced: Python, C++/C, Fortran, Matlab, MySQL
   * Beginner: Java, Julia, assembly language
 * CAD tools
   * UG NX, AutoCAD, Solidworks, Autodesk Inventor

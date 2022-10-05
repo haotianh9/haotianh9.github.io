@@ -26,6 +26,7 @@ Research projects
 Currently, I'm working on two projects. 
 
 In one project, we are looking at the sensory control strategy of fish via reinforcement learning. We are focusing on a scenario similar to predation of fish. A swimmer is moving in the wake left by an oscillating airfoil. It's goal is to locate the airfoil by measuring local flow property and navigating in the wake. We are interested in the following three questions. First, what flow property is the most effective sensory cue, whether it is velocity, pressure or vorticity? Second, which location is optimal for placing the sensors along the body of the swimmer? Third, what is the optimal sensory-control strategy in this task? 
+We employed model free reinforcement learning to solve these problems. The trained policy not only performed well in the flow field where it is trained in, but also can generalize its performance to other flow field which are not seen during training. Especially, we can generalize the sensoricontrol strategy from 2D problem to 3D problem. Moreover, the policy is interpretable. By analyzing it in a reduced order signal field, we can understand the importance of both sensor location and sensor type. 
 ![flowtaxis](/files/flowtaxis.gif)
 
 In the other project, we are looking at the role of body flexion in the performance of fish's swimming. 
