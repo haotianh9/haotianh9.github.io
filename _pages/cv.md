@@ -30,20 +30,24 @@ Work experience
 Skills
 ======
 * Programming Language
-  * Experienced: Python, Fortran, Matlab, Latex
-  * Beginner: C++/C
-  * Know a little bit: java, Julia, assembly language
-* 3D modeling
-  * Experienced: UG NX, AutoCAD
-  * Beginner: Solidworks
+  * Experienced: Python, C++/C, Fortran, Matlab
+  * Beginner: Java, Julia, assembly language
+* CAD tools
+  * UG NX, AutoCAD, Solidworks, Autodesk Inventor
+* EDA tools
+  * AutoDesk Fusion 360
+* HPC related tools
+  * MPI, OpenMP, cuda
+* Machinea learning framework
+  * Pytorch, Tensorflow/Keras
 * Simulation
-  * Beginner: Fluent, XFlow, Abaqus, Gazebo
+  * Fluent, XFlow, Abaqus, Gazebo
 * Micro Controller Hardware
-  * Experienced: Arduino
-  * Beginner: RasPiberry, MCS-51, Pixhawk
+  * Experienced: Arduino, Raspberry Pi, Pixhawk
+  * Beginner:  MCS-51, stm32
 * Manufacture
-  * Beginner: Laser cut, 3D printing
-  * Know a little bit: lathe, milling machine, CNC 
+  * Laser cut, 3D printing, lathe, milling machine, CNC 
+
 
 
 Publications
