@@ -8,6 +8,12 @@ date: 2021-01-07
 
 # location: "City, Country"
 ---
+duty: Grading hoemworks and exams, holding office hours, answering students' questions
+
+The class is mainly about solving partial differential equations (PDE). 
+
+Separation of variables, Fourier transformation, Laplacian transformation, Cauchy Problem are covered in this class.
+
 
 <!-- This is a description of a teaching experience. You can use markdown like any other post. -->
 
