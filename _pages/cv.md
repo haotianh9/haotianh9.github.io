@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV](files/CV/HHT_CV.pdf).
+
 Education
 ======
 * B.S. Aeronautics and Astronautics Engineering, Shanghai Jiao Tong University, 2019
