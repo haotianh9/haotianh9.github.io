@@ -22,6 +22,10 @@ Work experience
   * Bio-Inspired Motion Lab at USC
   <!-- * Duties included: Tagging issues -->
   * Supervisor: Professor Eva Kanso
+* Jun 2023 - Aug 2023: Quantitative Analyst Intern
+  * Corporate Model Risk at Wells Fargo
+  <!-- * Duties included: Tagging issues -->
+  * Manager: Nengfeng Zhou
 * Sep 2019 - Dec 2019 : Intern Algorithmic Engineer
   * Shanghai Hongpu Information Technology Co., Ltd. 
 * 2016 - 2019: Research Assistant
@@ -32,12 +36,11 @@ Work experience
 Skills
 ======
 * Programming Language
-  * Experienced: Python, C++/C, Fortran, Matlab, MySQL
-  * Beginner: Java, Julia, assembly language
+  * Python, C++/C, Fortran, Matlab
 * CAD tools
   * UG NX, AutoCAD, Solidworks, Autodesk Inventor
 * EDA tools
-  * AutoDesk Fusion 360
+  * AutoDesk Fusion 360, KiCAD
 * HPC related tools
   * MPI, OpenMP, cuda
 * Machinea learning framework
@@ -45,8 +48,7 @@ Skills
 * Simulation
   * Fluent, XFlow, Abaqus, Gazebo
 * Micro Controller Hardware
-  * Experienced: Arduino, Raspberry Pi, Pixhawk
-  * Beginner:  MCS-51, stm32
+  *  Arduino, Raspberry Pi, Pixhawk, Stm32
 * Manufacture
   * Laser cut, 3D printing, lathe, milling machine, CNC 
 
