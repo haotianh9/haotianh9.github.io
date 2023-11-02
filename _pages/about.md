@@ -9,17 +9,19 @@ redirect_from:
 ---
 
 I am a PhD candidate at [Prof.Kanso's Bio-inspired Motion Lab](https://sites.usc.edu/kansolab/) at Univeristy of Southern California. I got my B.S. degree from [Shanghai Jiao Tong Univeristy](https://www.sjtu.edu.cn) in 2019, where I also worked as an undergraduate research assistant at J.C. Wu Center for Aerodynamics for four years. 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+
 
 My CV can be found at [CV](files/CV/HHT_CV.pdf). 
 
 Research interest
 ======
-I'm mainly focusing on fluid dynamics problems inspired by biological behavior.
+My research takes a multi-disciplinary approach to understand the locomotion of swimming and flying animals. 
 <!-- , especially unsteady fluid dynamics problems related to swimming and flying animals.  -->
-Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years. Natural selection has endued them fascinating ability in propulsion efficiency, maneuverability and utilizing ambient flow structures, which is not achievable by any man-made vehicles. 
+<!-- Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years.  -->
+Natural selection has endued these animals fascinating ability in interacting with ambient flow structures, which is not achievable by any man-made vehicles.
+Both the unsteady flow physics and the sensory control strategy behind these biological behaviors arouse my interests. 
 <!-- I'm interested in combining physics based methods and data driven methods to understand bio-behaviors, which can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors.  --> 
-I'm interesrted in combining physics based methods and data driven methods to discover the  physics mechanisms underlying there biological behaviors. Moreover, I'm also curious about developing sensoricontrol strategies for utilizing these mechanisms on a robot. 
+I utilized methods from computational fluid dynamics (CFD), robo-physical experiment, reduced order modeling, reinforcement learning, and control theory to tackle these problems. For futrue direction, I'm curious about applying these knowledges to designing autonomous robots. 
 
 
 
