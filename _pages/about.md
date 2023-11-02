@@ -34,7 +34,7 @@ In the first part of my work, we are working on underwater navigation based on l
 In these different scenarios, we asked the following quesitons. First, what flow property is the most effective sensory cue, whether it is velocity, pressure or vorticity? Second, which location is optimal for placing the sensors along the body of the swimmer? Third, what is the optimal sensory-control strategy in each task? 
 
 <!-- ![flowtaxis](/files/flowtaxis.mp4) -->
-<video width="720" height="360" controls>
+<video  controls>
   <source src="/files/flowtaxis.mp4" type="video/mp4">
   Flowtaxis.
 </video>
