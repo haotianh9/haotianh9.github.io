@@ -15,14 +15,14 @@ My CV can be found at [CV](files/CV/HHT_CV.pdf).
 
 Research interest
 ======
-My research takes a multi-disciplinary approach to understand the locomotion of swimming and flying animals. 
+<!-- My research takes a multi-disciplinary approach to understand the locomotion of swimming and flying animals.  -->
 <!-- , especially unsteady fluid dynamics problems related to swimming and flying animals.  -->
 <!-- Thousands of species of animals have been constantly interacting with air and water of different conditions for millions of years.  -->
-Natural selection has endued these animals fascinating ability in interacting with ambient flow structures, which is not achievable by any man-made vehicles.
-Both the unsteady flow physics and the sensory control strategy behind these biological behaviors arouse my interests. 
+<!-- Natural selection has endued these animals fascinating ability in interacting with ambient flow structures, which is not achievable by any man-made vehicles. -->
+<!-- Both the unsteady flow physics and the sensory control strategy behind these biological behaviors arouse my interests.  -->
 <!-- I'm interested in combining physics based methods and data driven methods to understand bio-behaviors, which can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors.  --> 
-I utilized methods from computational fluid dynamics (CFD), robo-physical experiment, reduced order modeling, reinforcement learning, and control theory to tackle these problems. For futrue direction, I'm curious about applying these knowledges to designing autonomous robots. 
-
+<!-- I utilized methods from computational fluid dynamics (CFD), robo-physical experiment, reduced order modeling, reinforcement learning, and control theory to tackle these problems. For futrue direction, I'm curious about applying these knowledges to designing autonomous robots.  -->
+My research takes a multi-disciplinary approach to understand how an agent can achieve autonomy via utilizing its surrounding flow field. Natural selection endued swimming and flying animals fascinating abilities in interacting with ambient flow structures for energy saving or information gain, which is unachievable by man-made vehicles. Both the unsteady flow physics and the sensory control strategy behind these biological behaviors arouse my interest. I utilized methods from computational fluid dynamics (CFD), robo-physical experiments, reduced order modeling, reinforcement learning, and control theory to tackle these problems. For futrue direction, I'm curious about applying these knowledges to designing autonomous robots.
 
 
 Research projects
