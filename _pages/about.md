@@ -33,11 +33,11 @@ In the first part of my work, we are working on underwater navigation based on l
 
 In these different scenarios, we asked the following quesitons. First, what flow property is the most effective sensory cue, whether it is velocity, pressure or vorticity? Second, which location is optimal for placing the sensors along the body of the swimmer? Third, what is the optimal sensory-control strategy in each task? 
 
-<!-- ![flowtaxis](/files/flowtaxis.mp4) -->
-<video width="640" height="270" controls>
+![flowtaxis](/files/flowtaxis.mp4)
+<!-- <video width="640" height="270" controls>
   <source src="/files/flowtaxis.mp4" type="video/mp4">
   Flowtaxis.
-</video>
+</video> -->
 
 In terms of collective behavior of fish, "Vortex phase matching", which indicates a linear distance-phase relationship is well known in a two swimmer school. Here, we asked how does this understanding scales to larger school? How does different spatial pattern influence the distribution of power saving and school cohesion? More importantly, how does these understanding apply to real fish school, in which the topology are dynamically changing?
 
