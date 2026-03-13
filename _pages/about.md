@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate at [Prof.Kanso's Bio-inspired Motion Lab](https://sites.usc.edu/kansolab/) at Univeristy of Southern California. I got my B.S. degree from [Shanghai Jiao Tong Univeristy](https://www.sjtu.edu.cn) in 2019, where I also worked as an undergraduate research assistant at J.C. Wu Center for Aerodynamics for four years. 
-
+I am a postdoctoral researcher working with [Prof. Aurore Loisy](https://auroreloisy.github.io) at the [Institut de Recherche sur les Phénomènes Hors Équilibre (IRPHE)](https://irphe.univ-amu.fr), Aix-Marseille Université, CNRS. Previously, I completed my doctoral studies with [Prof. Eva Kanso](https://sites.usc.edu/kansolab/) at the University of Southern California in 2025. I received my B.S. degree from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn) in 2019, where I worked with [Prof. Hong Liu](https://www.aero.sjtu.edu.cn/en/faculty/190) and [Prof. Yang Xiang](https://www.aero.sjtu.edu.cn/en/faculty/120) as an undergraduate research assistant at the J.C. Wu Center for Aerodynamics.
 
 My CV can be found at [CV](files/CV/HHT_CV.pdf). 
 
@@ -22,8 +21,11 @@ Research interest
 <!-- Both the unsteady flow physics and the sensory control strategy behind these biological behaviors arouse my interests.  -->
 <!-- I'm interested in combining physics based methods and data driven methods to understand bio-behaviors, which can not only help us in designing biomimic vehicles, but also uncover the physics mechanism underlying these behaviors.  --> 
 <!-- I utilized methods from computational fluid dynamics (CFD), robo-physical experiment, reduced order modeling, reinforcement learning, and control theory to tackle these problems. For futrue direction, I'm curious about applying these knowledges to designing autonomous robots.  -->
-My research seeks the physical principles that enable autonomous behavior in agents interacting with surrounding flows. Swimming and flying animals exploit ambient vortical structures and social interactions to save energy and harvest information—capabilities still out of reach for most engineered vehicles. I study the unsteady fluid mechanics, sensorimotor control, and statistical physics of large collectives that underpin these behaviors, combining high-fidelity CFD, robophysical experiments, reduced-order modeling, reinforcement learning, and control theory. Looking ahead, I aim to translate these insights into design rules for flow-adaptive autonomous robots.
 
+
+<!-- My research seeks the physical principles that enable autonomous behavior in agents interacting with surrounding flows. Swimming and flying animals exploit ambient vortical structures and social interactions to harvest energy and information—capabilities still out of reach for most engineered vehicles. I study the unsteady fluid mechanics, sensorimotor control, and statistical physics of large collectives that underpin these behaviors, combining high-fidelity CFD, robophysical experiments, reduced-order modeling, reinforcement learning, and control theory. Looking ahead, I aim to translate these insights into design rules for flow-adaptive autonomous robots. -->
+
+My research aims to uncover the physical principles underlying collective intelligence. Animal groups display remarkable emergent behaviors that arise from local, decentralized interactions. In particular, bird flocks, fish schools, and insect swarms sense and respond both to their neighbors and to the surrounding flow field, exploiting fluid–structure interactions and social interactions to harvest energy and information—capabilities that remain beyond those of most engineered vehicles. By combining high-fidelity CFD, robophysical experiments, reduced-order modeling, and machine learning, I seek an integrated understanding of these autonomous behaviors in the context of unsteady fluid mechanics, sensorimotor control, and statistical physics. Ultimately, I aim to translate these insights into design principles for flow-adaptive autonomous robots.
 
 Current Research
 ======
