@@ -4,8 +4,11 @@
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{array,longtable}
 \usepackage{datetime}
-\usepackage{fontawesome}
+% \usepackage{fontawesome}
 \usepackage{academicons}
+\usepackage{fontawesome6} % requires a recent TeX distribution
+\newcommand{\pubnum}[1]{\makebox[0em][r]{#1.}\ } % adjust 2.4em to taste
+
 \usepackage[left=.5in,right=1.25in,top=.5in,bottom=.5in]{geometry}
 
 %xelatex parameter
@@ -50,7 +53,7 @@
 	\smallskip
 	\moveleft.5\hoffset\centerline{\monthyear\today}
 	\begin{resume}%
-		\vsrk
+		\vsrk\vsrk
 		% \section{PERSONAL INFO}
 		% \sepline
 		% \begin{longtable}{@{}>{\raggedright}p{0.5\linewidth}
@@ -69,7 +72,7 @@
 				p{\dimexpr0.5\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
 			{\bf Mobile:} (213)462-5919 & {\bf Address:} 920 Downey way, Los Angeles, CA 90089\\
 			{\bf E-mail:} haotianh@usc.edu, hanghaotian@gmail.com
-			& {\bf \faHome:}   \href{https://haotianh9.github.io/}{\textit{Personal Website }}
+			& {\bf \faIcon{house}:}   \href{https://haotianh9.github.io/}{\textit{Personal Website }}
 			\\
 			\multicolumn{2}{l}{\hspace{-2.25ex} {\bf Social media:} \hspace{1ex}  \href{https://github.com/haotianh9}{\textit{\faGithub}} \hspace{1ex} \href{https://www.linkedin.com/in/haotian-hang-0a23471a3/}{\textit{\faLinkedin}} \hspace{1ex} \href{https://www.researchgate.net/profile/Haotian-Hang/}{\textit{\aiResearchGate}} \hspace{1ex} \href{https://scholar.google.com/citations?user=3hzPBNoAAAAJ}{\textit{\aiGoogleScholar}}} \hspace{1ex} \\
 		\end{longtable}
@@ -80,7 +83,7 @@
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
 			
 			\hspace{-4ex}{2020 -  2025} & {\bf University of Southern California}, Los Angeles, CA\\
-			& {~Doctor of Philosophy, Mechanical Engineering, (defense date: 2025/3/14)} \\
+			& {~Doctor of Philosophy, Mechanical Engineering, May 2025 (USC Viterbi School of Engineering’s Best Dissertation Award) } \\
 			% & {~Master of Science, Mechanical Engineering, December 2021} \\
 			& {~Master of Science, Computer Science (High Performance Computing track),  Dec 2023} \\
 
@@ -92,7 +95,8 @@
 		\sepline
 		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
-    	\hspace{-4ex}{2020 -  } & {\bf Research Assistant}, Bio-Inspired Motion Lab at USC, PI: \textit{Prof.~Eva Kanso}\\
+                \hspace{-4ex}{2026/3 -  } & {\bf Postdoctral researcher},  Institut de Recherche sur les Phénomènes Hors Equilibre (IRPHE), Aix-Marseille Université, France, PI: \textit{Prof.~Aurore Loisy}\\
+    	\hspace{-4ex}{2020- 2025} & {\bf Research Assistant}, Bio-Inspired Motion Lab at USC, PI: \textit{Prof.~Eva Kanso}\\
 				\hspace{-4ex}{2023/6 - 8} & {\bf Quantitative Analyst Intern}, Corporate Model Risk, Wells Fargo, Manager: \textit{Dr.~Nengfeng Zhou}, \textit{Dr.~Harry Zhang}\\
 				\hspace{-4ex}{ } & Evaluate robustness of machine learning models \\
             \hspace{-4ex}{ } & \hspace{4ex} Discover the contribution of each input feature on robustness metrics and overfitting \\
@@ -108,26 +112,30 @@
 		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
                 % all published papers are in APA format in google scholar!!!
-                \hspace{-4ex}{2025}
-                 & \nhphantom{13. }13. Cheng, H., \textbf{Hang, H.}, Huang, C., Barnett, A., \& Kanso, E.$^*$ (in preparation) Collective transitions in bi-chamber domain \\
-                &  \nhphantom{12. }12.  \textbf{Hang, H.}$^\#$, Shen, Y.$^\#$, Zhu, V.$^{\#,*}$,   Li, M., Cruz, J.  (in preparation) Chitchat with AI: understand the supply chain carbon disclosure of companies worldwide through Large Language Model  \\
-                 & \nhphantom{11. }11. \textbf{Hang, H.}, Huang, C., Barnett, A., \& Kanso, E.$^*$ (in preparation) Chaotic Mixing in Large Schools of Fish \\
-                & \nhphantom{10. }10. Linot, A.$^*$, \textbf{Hang, H.},  Kanso, E.,  Taira, K.  (under review)
-\href{https://arxiv.org/abs/2501.00626}{\textit{Hierarchical equivariant graph neural networks for forecasting collective motion in vortex clusters and microswimmers}} \\
-                 & \nhphantom{9. }9. \textbf{Hang, H.}, Huang, C., Barnett, A., \& Kanso, E.$^*$ (under review) \href{https://arxiv.org/abs/2505.05822 }{Self-reorganization and Information Transfer in Massive Schools of Fish} \\
-                       & \nhphantom{8. }8. \textbf{Hang, H.}, Jiao, Y., Merel, J. \& Kanso, E.$^*$ (under review). \href{https://www.biorxiv.org/content/10.1101/2023.12.15.571932v2}{\textit{Flow Currents Support Simple and Versatile Trail-Tracking Strategies}}  \\
-                    & \nhphantom{7. }7.  Jiao, Y.$^\#$, \textbf{Hang, H.}$^\#$,  Merel, J., \& Kanso, E.$^*$ (2025). \href{https://doi.org/10.1038/s41467-025-58125-6}{Sensing flow gradients is necessary for learning autonomous underwater navigation}. Nature Communications, 16(1), 3044.
+                  \hspace{-4ex}{On going}   & \pubnum{18} \textbf{Hang, H.}, Swanson, N.,  Peterson, A.,  McHenry, M., Bialek, W.  \& Kanso, E.$^*$ (in preparation) Statistical mechanics for Confined Fish Schools \\
+                & \pubnum{17} Cheng, H., \textbf{Hang, H.}, Huang, C., Barnett, A., \& Kanso, E.$^*$ (in preparation) Collective transitions in bi-chamber domain \\
+              &   \pubnum{16} Chan, A., Hayward, A., \textbf{Hang, H.}, Swanson, N., Guo, H. , Martinez, C., McHenry, M. \& Kanso, E.$^*$ (in preparation) The Physics of Schooling:  Correlation-Based Insights into Fish Collective Behavior \\
+                  & \pubnum{15} \textbf{Hang, H.}, Huang, C., \& Kanso, E.$^*$ (in preparation) Chaotic Mixing in Large Schools of Fish \\
+                 & \pubnum{14} Cheng, H., \textbf{Hang, H.}, Stone, H.,  \& Kanso, E.$^*$ (in preparation) Active Brownian Particles in Circular Confinement \\
+                 & \pubnum{13} \textbf{Hang, H.},  \& Kanso, E.$^*$ (in preparation) Scale-Free Correlations in Emergent Rotational Order \\
+                 \hspace{-4ex}{2026}        &  \pubnum{12} \textbf{Hang, H.}$^\#$, Shen, Y.$^\#$, Zhu, V.$^{*}$, Cruz, J, Li, M..  (submitted) \href{https://arxiv.org/abs/2511.00024}{\textit{Chitchat with AI: understand the supply chain carbon disclosure of companies worldwide through Large Language Model}}  \\
+                  & \pubnum{11} Gebhardt, R., \textbf{Hang, H.}, Paley, D.$^*$, \& Kanso, E. (2026) \href{https://cdcl.umd.edu/papers/robosoft26.pdf}{\textit{Fluid-structure interaction dynamics and feedback control of multiple flexible bioinspired swimmers}} RoboSoft\\
+                     & \pubnum{10} \textbf{Hang, H.}, Huang, C., Barnett, A., \& Kanso, E.$^*$ (accepted by Nature Communication) \href{https://arxiv.org/abs/2505.05822 }{\textit{Self-reorganization and Information Transfer in Massive Schools of Fish}} \\
+                       & \pubnum{9}  \textbf{Hang, H.}, Jiao, Y., Merel, J., \& Kanso, E.$^*$ (2026). \href{https://doi.org/10.1103/qj9q-p7rg}{\textit{Flow Currents Support Simple and Versatile Trail-Tracking Strategies}}. Physical Review Research, 8(1), 013019.  \\
+          \hspace{-4ex}{2025}    
+                &        \pubnum{8} Linot, A. J.$^*$, \textbf{Hang, H.}, Kanso, E., \& Taira, K. (2025). \href{https://doi.org/10.1038/s42005-025-02417-2}{\textit{Hierarchical equivariant graph neural networks for forecasting collective motion in vortex clusters and microswimmers}} . Communications Physics. \\
+                    & \pubnum{7} Jiao, Y.$^\#$, \textbf{Hang, H.}$^\#$,  Merel, J., \& Kanso, E.$^*$ (2025). \href{https://doi.org/10.1038/s41467-025-58125-6}{\textit{Sensing flow gradients is necessary for learning autonomous underwater navigation}}. Nature Communications, 16(1), 3044.
                     \\
-    \hspace{-4ex}{2024}   & \nhphantom{6. }6. 
+    \hspace{-4ex}{2024}   & \pubnum{6} 
         Heydari, S.$^\#$, \textbf{Hang, H.}$^\#$, \& Kanso, E.$^*$ (2024). \href{https://doi.org/10.7554/eLife.96129.1}{\textit{Mapping spatial patterns to energetic benefits in groups of flow-coupled swimmers}}. Elife, 13, RP96129. \\
-    & \nhphantom{5. }5. \textbf{Hang, H.},  Heydari, S. \& Kanso, E.$^*$   (2024). \href{http://dx.doi.org/10.23919/ACC60939.2024.10644662}{\textit{Feedback control of uncoordinated flapping swimmers to maintain school cohesion}}. American Control Conference (ACC)  \\
+    & \pubnum{5} \textbf{Hang, H.},  Heydari, S. \& Kanso, E.$^*$   (2024). \href{http://dx.doi.org/10.23919/ACC60939.2024.10644662}{\textit{Feedback control of uncoordinated flapping swimmers to maintain school cohesion}}. American Control Conference (ACC)  \\
 		  \hspace{-4ex}{2023}
-		   & \nhphantom{4. }4. Qin, S., \textbf{Hang, H.}, Xiang, Y.$^*$ \& Liu, H. (2023). \href{https://doi.org/10.1016/j.cja.2023.09.030}{\textit{Reynolds-number scaling analysis on lift generation of a flapping and passive rotating wing with an inhomogeneous mass distribution}}.  Chinese Journal of Aeronautics, 37(2), 259-269  \\
+		   & \pubnum{4} Qin, S., \textbf{Hang, H.}, Xiang, Y.$^*$ \& Liu, H. (2023). \href{https://doi.org/10.1016/j.cja.2023.09.030}{\textit{Reynolds-number scaling analysis on lift generation of a flapping and passive rotating wing with an inhomogeneous mass distribution}}. Chinese Journal of Aeronautics, 37(2), 259-269 \\
 			\hspace{-4ex}{2022} 
-			& \nhphantom{3. }3. \textbf{Hang, H.}, Heydari, S., Costello, J., \& Kanso, E.$^*$ (2022). \href{https://doi.org/doi:10.1017/jfm.2021.984}{\textit{Active tail flexion in concert with passive hydrodynamic forces improves swimming speed and efficiency}}. Journal of Fluid Mechanics, 932, A35.  \\
+			& \pubnum{3} \textbf{Hang, H.}, Heydari, S., Costello, J., \& Kanso, E.$^*$ (2022). \href{https://doi.org/doi:10.1017/jfm.2021.984}{\textit{Active tail flexion in concert with passive hydrodynamic forces improves swimming speed and efficiency}}. Journal of Fluid Mechanics, 932, A35.  \\
 			\hspace{-4ex}{2021} 
-			& \nhphantom{2. }2. Xiang, Y., \textbf{Hang, H.}, Qin, S.$^*$, \& Liu, H. (2021). \href{https://doi.org/10.1007/s10409-021-01134-7}{\textit{Scaling analysis of the circulation growth of leading-edge vortex in flapping flight}}. Acta Mech. Sin, 37(10), 1530-1543.  \\
-			\hspace{-4ex}{2020} & \nhphantom{1. }1. \textbf{Hang, H.}, Yu, B., Xiang, Y., Zhang, B.$^*$, \& Liu, H. (2020).  \href{https://doi.org/10.1007/s12650-019-00605-1}{\textit{An objective-adaptive refinement criterion based on modified ridge extraction method for finite-time Lyapunov exponent (FTLE) calculation}}. Journal of Visualization, 23(1), 81-95. \\
+			& \pubnum{2} Xiang, Y., \textbf{Hang, H.}, Qin, S.$^*$, \& Liu, H. (2021). \href{https://doi.org/10.1007/s10409-021-01134-7}{\textit{Scaling analysis of the circulation growth of leading-edge vortex in flapping flight}}. Acta Mech. Sin, 37(10), 1530-1543.  \\
+			\hspace{-4ex}{2020} & \pubnum{1} \textbf{Hang, H.}, Yu, B., Xiang, Y., Zhang, B.$^*$, \& Liu, H. (2020).  \href{https://doi.org/10.1007/s12650-019-00605-1}{\textit{An objective-adaptive refinement criterion based on modified ridge extraction method for finite-time Lyapunov exponent (FTLE) calculation}}. Journal of Visualization, 23(1), 81-95. \\
             & $^\#$ - equal contribution, $^*$ - corresponding author \\
 		\end{longtable}
 		\vsrk\vsrk
@@ -138,11 +146,13 @@
     	\hspace{-4ex}{2018}    & Single-wing aircraft with rotor wing mode and fixed wing flight mode and mode switching method ZL.201811222322.5\\
 		\end{longtable}
 		\vsrk\vsrk	
-  \section{Talks/Presentations}
+       \section{Talks/Presentations}
 		\sepline
 		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
-                \hspace{-4ex}{2025}     & {\bf APS March Meeting}, Fish schooling at extreme scales  \\
+                \hspace{-4ex}{2026}    & {\bf Gordon Research Seminar (GRS) Robotics: Bridging Scales in Robotics for Autonomous Embodied Systems}, Self-Reorganization and Information Transfer in Fish Schools at Extreme Scale \\
+                \hspace{-4ex}{2025}    & {\bf APS Division of Fluid Dynamics Meeting}, Stability and Breakdown of Collective Milling in Large Fish Schools\\
+                & {\bf IROS Nature-Inspired Intelligent Flight (NIIF) workshop}, Discovering autonomous navigation strategies in unsteady flows using reinforcement learning \\   & {\bf APS March Meeting}, Fish schooling at extreme scales  \\
                 & {\bf Dynamics Day}, Fish schooling at extreme scales  \\
     	\hspace{-4ex}{2024}     & {\bf APS Division of Fluid Dynamics Meeting}, Fish schooling at extreme scales \\
         & {\bf APS March Meeting}, Learning to track flows\\
@@ -168,14 +178,14 @@
            % & Study the transition of fish school in a bi-chamber domain \\
          & Scale agent-based simulation to the order of $10^4$  and analyze the data based on continuum description  \\
 			\hspace{-4ex}{2021 - } & {\bf School cohesion and energetic benefits of fish school}, supervised by \textit{Prof.~Eva Kanso}, \textit{Prof.~Matt McHenry} \\
-			& Develop efficient parallelized code using  fast multipole method (FMM) to simulate emergent formation of hydordynamically-coupled siwmmers\\
-			& Evaluate the energetic benefit and stability of fish schools of different different spatial patterns \\
+			& Develop efficient parallelized code using  fast multipole method (FMM) to simulate emergent formation of hydordynamically-coupled swimmers \\
+			& Evaluate the energetic benefit and stability of fish schools of different spatial patterns \\
 			& Design control laws to stabilize fish schools that are passively unstable \\
             & Study the dynamically-changing real fish schools using graph neural network\\
 			\hspace{-4ex}{2020 - } & {\bf Underwater navigation using deep reinforcement learning}, supervised by \textit{Prof.~Eva Kanso}, \textit{Dr.~Josh Merel}  \\
 			& Employ reinforcement learning to track vortical wakes based on local flow sensory and to navigate through unsteady adversarial background flow\\
 			& Find the importance of the wake's periodicity and traveling wave characteristic in both tasks \\
-			& Analyze the wake-trac king policy in a simplified signal field and prove that stability of the controller depends on the location of sensor \\
+			& Analyze the wake-tracking policy in a simplified signal field and prove that stability of the controller depends on the location of sensor \\
 			& Explain neural-network-based policy in observation space, and link it to the generalizability of the policy \\
 		\end{longtable}
 		\vspace*{-4.5ex}
@@ -184,7 +194,7 @@
 			
 			\hspace{-4ex}{2020 - } & {\bf Fluid-structure interaction of biologically-inspired flexible propulsor}, supervised by \textit{Prof.~Eva Kanso}, \textit{Prof.~John H. Costello}\\
 			& Analyze the role of active and passive flexion on swimming speed and efficiency of a self-propelling pitching plate using vortex sheet method \\
-			& Parametric study on effects of flexion phase, flexion angle and flexion ratio on swimming performance\\
+			& Parametric study on effects of flexion phase, flexion angle, and flexion ratio on swimming performance\\
 			& Find overlap between biological data and the region we proposed to have hydrodynamic benefits in parameter space\\
             
 						
@@ -195,7 +205,7 @@
 			\hspace{-4ex}{2016 - 2019} & {\bf  High lift generation mechanisms of insects' flight}, supervised by \textit{Prof.~Hong Liu}, \textit{Prof.~Yang Xiang} and \textit{Dr.~Suyang Qin}\\
 			& Conduct experimental study using robotic flapping wing models in glycerin with Reynolds number similar to insects \\
 			& Measure flow field using particle image velocimetry (PIV) and measure force and torque using 6-axis force sensor, analogue filter and NI data acquisition system \\
-			& Study formation of leading edge vortex(LEV) for different kinematic modes, and find advanced rotation can generate a lager LEV because of wake capture \\
+			& Study formation of leading edge vortex(LEV) for different kinematic modes, and find that advanced rotation can generate a larger LEV because of wake capture \\
 			& Find a scaling law between passive rotation and active translation in flapping wing model \\
 
 		\end{longtable}
@@ -222,9 +232,9 @@
 		\sepline
 		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+%             & \textbf{We media} \\
+% \hspace{-4ex}{2025-} & Foundation of Network Science \href{https://space.bilibili.com/194511824/lists/5710937}{\faIcon{bilibili} BiliBili Link}  \href{https://github.com/haotianh9/graph_teaching }{\textit{\faGithub} Github Link}    \\
 			& \textbf{at University of Southern California} \\
-			
-
 			\hspace{-4ex}{2021 Spring} & {\bf Teaching Assistant}, AME-526, Introduction to mathematical methods in engineering II, \emph{Prof.~Niema Pahlevan}\\
 	
 			\hspace{-4ex}{2020 Fall} & {\bf Teaching Assistant}, AME-404, Computational Solutions to Engineering Problems, \emph{Prof.~Takahiro Sakai}\\
@@ -236,6 +246,7 @@
 		\sepline
          \begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+                \hspace{-4ex}{2025- } & Software defined radio \href{https://github.com/haotianh9/rtl-sdr-using-gnuradio}{\textit{\faGithub} Github Link}  \\
     \hspace{-4ex}{2023- 2024} &   Field-Oriented Control (FOC) on STM32  \href{https://github.com/haotianh9/DengFOC_on_STM32}{\textit{\faGithub} Github Link} 	\\
     \hspace{-4ex}{2021- 2024} &  Inferring unknown parameters of partially-observable system using Physics-informed-DeepONet  \href{https://github.com/chenchenhuang/DeepONet_physics_inferring}{\textit{\faGithub} Github Link} \\
      \hspace{-4ex}{2021 - 2022} &  Parallel C++ Implementation of Proximal Policy Optimization (PPO)  \href{https://github.com/haotianh9/Reinforcement_learning_cpp_parallel}{\textit{\faGithub} Github Link} \\
@@ -260,8 +271,10 @@
 		\sepline
 		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
+                \hspace{-4ex}{2026} 
+                 & Reviewer,  Journal of Fluid Mechanics \\
                 \hspace{-4ex}{2025} 
-                 & Reviewer,  ICLR-AI4Mat 2025, Physics of Fluids, ICMI 2025  \\
+                 & Reviewer,  ICLR-AI4Mat 2025, Physics of Fluids, ICMI 2025, NeurIPS-AI4Mat 2025, Physical Review Fluids, RoboSoft 2026, Journal of Fluid Mechanics \\
                 \hspace{-4ex}{2024} 
                  & Reviewer, Physics of Fluids, PNAS Nexus, NeurIPS-AI4Mat 2024  \\
                 & Judge, Undergraduate Symposium for Scholarly and Creative Work \\
@@ -278,7 +291,7 @@
 		\begin{longtable}{@{}>{\raggedright}p{0.07\linewidth}
 				p{\dimexpr0.95\linewidth-2\tabcolsep-\arrayrulewidth\relax}@{}}
                 
-	\hspace{-4ex}{2025}  & The William F. Ballhaus Jr. Prize for Excellence in Graduate Engineering Research (Viterbi School 2025 Best Dissertation Award)  \\
+	\hspace{-4ex}{2025}  & The William F. Ballhaus Jr. Prize for Excellence in Graduate Engineering Research (USC Viterbi School of Engineering’s Best Dissertation Award)  \href{https://viterbischool.usc.edu/news/2025/05/building-a-better-world-dean-yannis-c-yortsos-tells-graduates-they-will-make-a-difference/}{Link}  \\
     & Dynamics Days US 2025 travel grant  \\
 				\hspace{-4ex}{2022}  & USC Three Minute Thesis (3MT) competition Finalist \href{https://sites.google.com/usc.edu/eishub/three-minute-thesis/2022-3mt?authuser=0}{Link}\\
 			\hspace{-4ex}{2020}  & USC Viterbi fellowship \\
